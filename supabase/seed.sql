@@ -1,0 +1,3 @@
+-- Seed data for local development. The omi.me vendor row is inserted at runtime
+-- via a one-off script (see scripts/seed-omi.ts) because its client_secret needs
+-- to be generated and surfaced once. Leaving this file as a hook for future seeds.

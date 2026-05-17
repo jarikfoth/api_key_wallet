@@ -1,0 +1,17 @@
+name = "akw-proxy"
+main = "src/index.ts"
+compatibility_date = "2026-05-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Use `wrangler secret put MEK` (and friends) to set these in prod — do NOT commit values.
+# For local dev, copy .dev.vars.example to .dev.vars.
+
+# [vars]
+# (none — everything sensitive is a secret)
+
+# Bindings (uncomment + configure once project is wired up in the dashboard)
+# [observability]
+# enabled = true
+
+[dev]
+port = 8787
